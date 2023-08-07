@@ -1,0 +1,156 @@
+.logo{
+    height: 50px;
+}
+.ayrac{
+    font-size: 20px;
+    margin: 0px 20px;
+    color: white;
+}
+.nav-bg{
+    background-color: rgba(122, 122,122, 0.356);
+}
+.header-yuk{
+  height:calc(50vh-70px);
+}
+.sayfa-baslik h3{
+  color: #f4b706;
+  font-weight: bold;
+}
+.sayfa-baslik p{
+  color: #fff;
+  font-weight: bold;
+}
+
+.ust-kisim{
+    background-image: url(images/bg.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+}
+.ust-kisim-sayfalar{
+  background-image: url(images/bg2.jpg);
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no repeat;
+  background-attachment: fixed;
+}
+.nav-item a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    }
+.nav-item a:hover{
+    color: #f4b706;
+}
+
+
+
+@media screen and (max-width:992px) {
+    .ayrac{
+        display: none;
+    }
+    .nav-item:hover{
+        background-color: black;
+    }
+
+
+}
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-image: var(--bs-navbar-toggler-icon-bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+  }
+  .bosluk{
+    margin-top: 100px;
+    width: 150px;
+    height: 120px;
+  }
+
+  /* Teklif Kısmı */
+  .teklif{
+    height: 60px;
+  }
+  .simge{
+    color: #f4b706;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .imza{
+    font-size: 20px;
+  }
+  /*Hizmetlerimiz*/
+  .hizmetlerimiz{
+    background-color: #f4b706;
+  }
+
+  /*Çalışanlar */
+  
+ 
+
+  
+
+  /*Slogan */
+  .simge1{
+    color: #f4b706;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  soz{
+    font-size: 120px;
+    
+  }
+  .slogan{
+    background-image: url(images/bg11.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+  }
+  
+  .dis-icon{
+    font-size: 150px;
+    color: white;
+  }
+  /* Uzmanlıklarımız*/
+
+  .calisma{
+    padding: 5px;
+    border: 1px solid transparent;
+  }
+  .calisma:hover{
+    border: 1px solid gray;
+    cursor: pointer;
+  }
+  .calisma img{
+    height:150px;
+    
+  }
+  /* footer */
+  .footer{
+    background-color: #2c3e50;
+    height: 300px;
+    color:#95a5a6;
+  }
+  .footer-sutun{
+    font-size: 36px;
+    height: 300px;
+    
+  }
+
+  /*iletişim*/
+  .simgeler{
+    font-size:16px ;
+  }
+  
+
+
